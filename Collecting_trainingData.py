@@ -12,7 +12,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.3)
 
-Data_Dir = r"D:\AMIT AI Diploma\Projects\Sign language\My image data"
+Data_Dir = r"D:\Projects\Sign language\My image data"
 
 #iterate through files
 #dir_ is the label
