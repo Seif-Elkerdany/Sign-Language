@@ -14,7 +14,7 @@ Y = df[42]
 
 x_train, x_test, y_train, y_test = train_test_split(X,Y,test_size = 0.2,shuffle=True)
 
-#the ML model
+#model
 clf = MLPClassifier(random_state=2, max_iter=1000,activation = "tanh" , alpha = 0.5).fit(x_train, y_train)
 y_predict = clf.predict(x_test)
 
