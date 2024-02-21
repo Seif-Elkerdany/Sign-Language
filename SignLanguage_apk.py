@@ -6,7 +6,7 @@ import pickle
 
 cap = cv2.VideoCapture(0)
 
-model_dict = pickle.load(open(r"C:\Users\Saif Elkerdany\Model_mydata.pkl", 'rb'))
+model_dict = pickle.load(open(r"Model_mydata.pkl", 'rb'))
 model = model_dict
 
 mp_hands = mp.solutions.hands
